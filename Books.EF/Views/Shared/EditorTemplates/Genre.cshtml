@@ -1,0 +1,8 @@
+﻿@using Books.EF.Models
+@using Books.EF.Helpers
+
+@{
+    var items = typeof(Genre).GetItems((int?)Model);
+}
+
+@Html.DropDownList("", items)

@@ -1,5 +1,6 @@
 ﻿using Books.EF.Models;
 using Microsoft.AspNet.Identity.EntityFramework;
+using System.Data.Entity;
 
 namespace Books.EF.DataContexts
 {
@@ -19,6 +20,12 @@ namespace Books.EF.DataContexts
         public static IdentityDb Create()
         {
             return new IdentityDb();
+        }
+
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            modelBuilder.HasDefaultSchema("identity");
+            base.OnModelCreating(modelBuilder);
         }
     }
 }

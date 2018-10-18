@@ -18,5 +18,11 @@ namespace Books.EF.DataContexts
         }
 
         public DbSet<Book> Books { get; set; }
+
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            modelBuilder.HasDefaultSchema("application");
+            base.OnModelCreating(modelBuilder);
+        }
     }
 }

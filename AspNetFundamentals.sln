@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CORS.Client", "CORS.Client\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Books.EF", "Books.EF\Books.EF.csproj", "{1C671AEB-D0E0-408D-A097-3E9317316823}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerfSurf", "PerfSurf\PerfSurf.csproj", "{8D534C55-806D-4C28-AF0E-0C02F0501875}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{1C671AEB-D0E0-408D-A097-3E9317316823}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C671AEB-D0E0-408D-A097-3E9317316823}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C671AEB-D0E0-408D-A097-3E9317316823}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D534C55-806D-4C28-AF0E-0C02F0501875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D534C55-806D-4C28-AF0E-0C02F0501875}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D534C55-806D-4C28-AF0E-0C02F0501875}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D534C55-806D-4C28-AF0E-0C02F0501875}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
